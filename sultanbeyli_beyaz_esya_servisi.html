@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <meta name="description" content="Sultanbeyli ve çevresinde beyaz eşya arıza tespiti, bakım ve onarım hizmeti. Telefon ve WhatsApp ile ulaşın.">
+  <title>Sultanbeyli Beyaz Eşya Servisi | Tamir ve Bakım</title>
+  <style>
+    :root{--navy:#10243a;--navy2:#183650;--gold:#f4b544;--green:#16834b;--ink:#172536;--muted:#617184;--paper:#f4f7fa;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1100px,92%);margin:auto}
+    header{background:var(--navy);color:white;padding:17px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.2px}.logo{width:44px;height:44px;border-radius:13px;background:var(--gold);color:var(--navy);display:grid;place-items:center;font-size:23px}
+    .nav small{display:block;color:#c4d0dc;font-size:11px;letter-spacing:1.2px}.navlinks{display:flex;gap:22px;font-size:14px;color:#e3ebf2}
+    .hero{background:linear-gradient(120deg,rgba(9,26,43,.96),rgba(24,54,80,.91)),radial-gradient(circle at 85% 20%,#45627a,transparent 40%);color:#fff;padding:78px 0 70px}
+    .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center}
+    .eyebrow{color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:1.8px;font-size:12px}
+    h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:13px 0 18px;letter-spacing:-1.5px}
+    .hero p{font-size:18px;color:#d8e2eb;max-width:620px;margin:0 0 26px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:11px;font-weight:800;gap:8px}
+    .btn-call{background:var(--gold);color:#172536}.btn-wa{background:var(--green);color:#fff}.hero-note{font-size:12px!important;color:#afc0cf!important;margin-top:15px!important}
+    .hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:25px;backdrop-filter:blur(5px)}
+    .hero-card .big{font-size:38px;margin-bottom:8px}.hero-card h2{font-size:21px;margin:0 0 8px}.hero-card p{font-size:14px;margin:0;color:#d8e2eb}
+    section{padding:62px 0}.section-title{text-align:center;margin:0 auto 34px;max-width:650px}.section-title h2{font-size:32px;margin:0 0 8px;color:var(--navy)}.section-title p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{background:white;border:1px solid #e3e9ef;border-radius:16px;padding:22px;box-shadow:0 8px 22px rgba(16,36,58,.04)}
+    .service .ico{font-size:29px}.service h3{font-size:17px;margin:12px 0 5px}.service p{font-size:13px;color:var(--muted);margin:0}
+    .band{background:#eaf0f5}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{background:white;border-radius:15px;padding:22px}.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#fff1d6;color:#8b5b00;font-weight:800}
+    .step h3{margin:12px 0 5px;font-size:17px}.step p{margin:0;color:var(--muted);font-size:14px}
+    .areas{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.pill{background:#fff;border:1px solid #dce5ed;border-radius:999px;padding:10px 16px;font-weight:700;color:#33485d}
+    .contact{background:var(--navy);color:#fff;text-align:center}.contact h2{font-size:32px;margin:0 0 8px}.contact p{color:#c8d5e1;margin:0 0 22px}.phone{font-size:clamp(25px,4vw,38px);font-weight:900;letter-spacing:1px;margin:12px 0 22px}
+    footer{background:#0a1928;color:#b7c5d2;padding:22px 0;font-size:12px;text-align:center}
+    .disclaimer{max-width:850px;margin:18px auto 0;color:#aebdca;font-size:11px}
+    .mobilebar{display:none}
+    @media(max-width:760px){.navlinks{display:none}.hero{padding:56px 0}.hero-grid{grid-template-columns:1fr}.hero-card{max-width:420px}.services{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:10;background:white;padding:9px;gap:8px;box-shadow:0 -5px 20px #10243a22}.mobilebar .btn{flex:1;padding:12px 8px;font-size:14px}body{padding-bottom:68px}}
+    @media(max-width:390px){.services{grid-template-columns:1fr}.brand{font-size:13px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><div class="logo">🔧</div><div>SULTANBEYLİ BEYAZ EŞYA SERVİSİ<small>TAMİR • BAKIM • ARIZA TESPİTİ</small></div></div>
+    <nav class="navlinks"><a href="#hizmetler">Hizmetler</a><a href="#surec">Nasıl çalışıyoruz?</a><a href="#bolgeler">Servis bölgeleri</a><a href="#iletisim">İletişim</a></nav>
+  </div>
+</header>
+<main>
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Sultanbeyli ve çevresinde servis</div>
+        <h1>Beyaz eşyanız için tamir ve bakım desteği</h1>
+        <p>Çamaşır makinesi, bulaşık makinesi, buzdolabı, fırın ve kurutma makinesi için arıza tespiti ve onarım hizmeti.</p>
+        <div class="actions">
+          <a class="btn btn-call" href="tel:+905385153980">☎ Hemen Ara</a>
+          <a class="btn btn-wa" href="https://wa.me/905385153980?text=Merhaba%2C%20beyaz%20e%C5%9Fya%20tamiri%20i%C3%A7in%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yaz</a>
+        </div>
+        <p class="hero-note">Servis ücreti ve işlem bedeli, randevu öncesinde karşılıklı görüşülerek netleştirilir.</p>
+      </div>
+      <aside class="hero-card">
+        <div class="big">🛠️</div><h2>Yerinde servis talebi oluşturun</h2>
+        <p>Cihazınızın markasını, modelini ve arızasını WhatsApp üzerinden paylaşın. Uygunluk ve servis koşulları için size dönüş yapılsın.</p>
+      </aside>
+    </div>
+  </div>
+
+  <section id="hizmetler">
+    <div class="wrap">
+      <div class="section-title"><h2>Hangi cihazlara bakıyoruz?</h2><p>Farklı marka ve modeller için arıza tespiti, bakım ve onarım desteği.</p></div>
+      <div class="services">
+        <article class="service"><div class="ico">🧺</div><h3>Çamaşır makinesi</h3><p>Su almama, boşaltmama, sıkma ve çalışma sorunları.</p></article>
+        <article class="service"><div class="ico">🍽️</div><h3>Bulaşık makinesi</h3><p>Yıkama, su tahliyesi, ısıtma ve program sorunları.</p></article>
+        <article class="service"><div class="ico">❄️</div><h3>Buzdolabı</h3><p>Soğutma, ses, buzlanma ve çalışma sorunları.</p></article>
+        <article class="service"><div class="ico">♨️</div><h3>Fırın ve kurutma</h3><p>Isıtma, kurutma ve genel çalışma arızaları.</p></article>
+      </div>
+      <p style="text-align:center;color:#617184;font-size:13px;margin-top:20px">Marka ve model bilgisi için WhatsApp'tan fotoğraf gönderebilirsiniz.</p>
+    </div>
+  </section>
+
+  <section class="band" id="surec">
+    <div class="wrap">
+      <div class="section-title"><h2>Servis süreci nasıl işler?</h2><p>İşlem başlamadan önce arıza ve ücret konusunda bilgi alırsınız.</p></div>
+      <div class="steps">
+        <article class="step"><div class="num">1</div><h3>İletişime geçin</h3><p>Cihazın markasını, modelini ve yaşadığınız sorunu anlatın.</p></article>
+        <article class="step"><div class="num">2</div><h3>Arıza tespiti</h3><p>Uygunluk ve servis koşulları görüşülür; cihaz kontrol edilir.</p></article>
+        <article class="step"><div class="num">3</div><h3>Onayınızla işlem</h3><p>Fiyat ve gerekli parça bilgisi paylaşılır. Onayınız olmadan onarıma başlanmaz.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="bolgeler">
+    <div class="wrap">
+      <div class="section-title"><h2>Servis bölgeleri</h2><p>Merkezimiz Sultanbeyli. Diğer bölgeler için ulaşım ve randevu uygunluğunu sorun.</p></div>
+      <div class="areas"><span class="pill">Sultanbeyli</span><span class="pill">Sancaktepe</span><span class="pill">Pendik</span><span class="pill">Kartal</span><span class="pill">Ümraniye</span></div>
+    </div>
+  </section>
+
+  <section class="contact" id="iletisim">
+    <div class="wrap">
+      <h2>Servis için bize ulaşın</h2>
+      <p>Arayın veya WhatsApp'tan cihaz bilgilerinizi gönderin.</p>
+      <div class="phone">0538 515 39 80</div>
+      <div class="actions" style="justify-content:center">
+        <a class="btn btn-call" href="tel:+905385153980">☎ 0538 515 39 80</a>
+        <a class="btn btn-wa" href="https://wa.me/905385153980?text=Merhaba%2C%20servis%20talebi%20olu%C5%9Fturmak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Ulaşın</a>
+      </div>
+      <p class="disclaimer">Bağımsız özel teknik servis hizmetidir. Herhangi bir üretici markanın yetkili servisi değildir. Marka adları yalnızca cihaz uyumluluğunu belirtmek amacıyla kullanılabilir. Servis kapsamı, ücret ve parça durumu cihaz kontrolünden sonra netleştirilir.</p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Sultanbeyli Beyaz Eşya Servisi · Tüm hakları saklıdır.</div></footer>
+<div class="mobilebar">
+  <a class="btn btn-call" href="tel:+905385153980">☎ Ara</a>
+  <a class="btn btn-wa" href="https://wa.me/905385153980?text=Merhaba%2C%20servis%20talebi%20olu%C5%9Fturmak%20istiyorum." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
